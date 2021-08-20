@@ -75,11 +75,7 @@ DEFAULT_START_TEXT = (
 START_OTHER_USERS_TEXT = int(get_config(
     "START_OTHER_USERS_TEXT",
     "Halo kak ☺️\n"
-    "Sekarang kamu sudah terhubung dengan bot ini."
-    "Jika merasa ada keluhan maupun request silahkan untuk sampaikan ke saya. "
-    " Untuk cara request, silahkan klik https://t.me/ccgXmediaUp_bot?start=Z2V0LTg4NjI4MTcwMDg3NjUzMA=="
-    " Untuk cara lapor silahkan klik https://t.me/ccgXmediaUp_bot?start=Z2V0LTg4NTI4MDI1MjYyNjk1Mg=="
-    "**Jangan spam ya, nanti kami blok dari akses ccgnimeX.**"
+    
 ))
 # check online status of your bot
 ONLINE_CHECK_START_TEXT = get_config(
