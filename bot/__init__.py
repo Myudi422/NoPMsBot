@@ -65,11 +65,7 @@ BROADCAST_COMMAND = get_config("BROADCAST_COMMAND", "broadcast")
 # default message in-case of None types
 DEFAULT_START_TEXT = (
     "Halo kak ☺️\n"
-    "Sekarang kamu sudah terhubung dengan bot ini."
-    "Jika merasa ada keluhan maupun request silahkan untuk sampaikan ke saya. "
-    "‼️ Untuk cara request, silahkan klik disini kak. "
-    "‼️ Untuk cara lapor silahkan klik disini kak."
-    "**Jangan spam ya, nanti kami blok dari akses ccgnimeX.**"
+    
 )
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config(
