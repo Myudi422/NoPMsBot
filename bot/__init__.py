@@ -77,18 +77,16 @@ START_OTHER_USERS_TEXT = int(get_config(
     "Halo kak ☺️\n"
     "Sekarang kamu sudah terhubung dengan bot ini."
     "Jika merasa ada keluhan maupun request silahkan untuk sampaikan ke saya. "
-    "📣 Untuk cara request, silahkan klik disini kak. "
-    "‼️ Untuk cara lapor silahkan klik disini kak."
+    "📣 Untuk cara request, silahkan klik <a href="https://t.me/ccgXmediaUp_bot?start=Z2V0LTg4NjI4MTcwMDg3NjUzMA==">disini/a> kak. "
+    "‼️ Untuk cara lapor silahkan klik <a href="https://t.me/ccgXmediaUp_bot?start=Z2V0LTg4NTI4MDI1MjYyNjk1Mg==">disini</a> kak."
     "**Jangan spam ya, nanti kami blok dari akses ccgnimeX.**"
 ))
 # check online status of your bot
 ONLINE_CHECK_START_TEXT = get_config(
     "ONLINE_CHECK_START_TEXT",
     (
-        "i am online <b>master</b>\n\n"
-        "This is an Open Source Project available on "
-        "https://github.com/SpEcHiDe/NoPMsBot\n\n\n"
-        "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
+        "Saya masih aktif <b>master</b>\n\n"
+        
     )
 )
 # message to indicate,
@@ -98,9 +96,7 @@ DELETED_MESSAGES_NOTIFICATION_TEXT = get_config(
     "DELETED_MESSAGES_NOTIFICATION_TEXT",
     (
         "this message was deleted\n\n"
-        "This is an Open Source Project available on "
-        "https://github.com/SpEcHiDe/NoPMsBot\n\n\n"
-        "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
+        
     )
 )
 # IDEKWBYRW
