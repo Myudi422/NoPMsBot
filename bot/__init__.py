@@ -64,21 +64,22 @@ START_COMMAND = get_config("START_COMMAND", "start")
 BROADCAST_COMMAND = get_config("BROADCAST_COMMAND", "broadcast")
 # default message in-case of None types
 DEFAULT_START_TEXT = (
-    "Hi. ☺️\n"
-    "Thank you for using me 😬\n\n"
-    "This is an Open Source Project available on "
-    "https://github.com/SpEcHIDe/NoPMsBot\n\n\n"
-    "If you are the owner of this bot, "
-    "and are seeing this message 🤦‍♂️, "
-    "means that you have not set up "
-    "the ENVironment variables properly "
-    "for the bot to function.\n\n\n"
-    "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
+    "Halo kak ☺️\n"
+    "Sekarang kamu sudah terhubung dengan bot ini."
+    "Jika merasa ada keluhan maupun request silahkan untuk sampaikan ke saya. "
+    "📣 Untuk cara request, silahkan klik disini kak. "
+    "‼️ Untuk cara lapor silahkan klik disini kak."
+    "**Jangan spam ya, nanti kami blok dari akses ccgnimeX.**"
 )
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config(
     "START_OTHER_USERS_TEXT",
-    0
+    "Halo kak ☺️\n"
+    "Sekarang kamu sudah terhubung dengan bot ini."
+    "Jika merasa ada keluhan maupun request silahkan untuk sampaikan ke saya. "
+    "📣 Untuk cara request, silahkan klik disini kak. "
+    "‼️ Untuk cara lapor silahkan klik disini kak."
+    "**Jangan spam ya, nanti kami blok dari akses ccgnimeX.**"
 ))
 # check online status of your bot
 ONLINE_CHECK_START_TEXT = get_config(
