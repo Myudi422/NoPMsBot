@@ -64,20 +64,19 @@ START_COMMAND = get_config("START_COMMAND", "start")
 BROADCAST_COMMAND = get_config("BROADCAST_COMMAND", "broadcast")
 # default message in-case of None types
 DEFAULT_START_TEXT = (
-    "Halo kak"
+    "Hi. ☺️\n"
     
 )
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config(
     "START_OTHER_USERS_TEXT",
-    "Halo kak"
-    
+    0
 ))
 # check online status of your bot
 ONLINE_CHECK_START_TEXT = get_config(
     "ONLINE_CHECK_START_TEXT",
     (
-        "Saya masih aktif <b>master</b>\n\n"
+        "i am online <b>master</b>\n\n"
         
     )
 )
