@@ -77,8 +77,8 @@ START_OTHER_USERS_TEXT = int(get_config(
     "Halo kak ☺️\n"
     "Sekarang kamu sudah terhubung dengan bot ini."
     "Jika merasa ada keluhan maupun request silahkan untuk sampaikan ke saya. "
-    "‼️ Untuk cara request, silahkan klik <a href="https://t.me/ccgXmediaUp_bot?start=Z2V0LTg4NjI4MTcwMDg3NjUzMA==">disini/a> kak. "
-    "‼️ Untuk cara lapor silahkan klik <a href="https://t.me/ccgXmediaUp_bot?start=Z2V0LTg4NTI4MDI1MjYyNjk1Mg==">disini</a> kak."
+    " Untuk cara request, silahkan klik https://t.me/ccgXmediaUp_bot?start=Z2V0LTg4NjI4MTcwMDg3NjUzMA=="
+    " Untuk cara lapor silahkan klik https://t.me/ccgXmediaUp_bot?start=Z2V0LTg4NTI4MDI1MjYyNjk1Mg=="
     "**Jangan spam ya, nanti kami blok dari akses ccgnimeX.**"
 ))
 # check online status of your bot
