@@ -64,20 +64,14 @@ START_COMMAND = get_config("START_COMMAND", "start")
 BROADCAST_COMMAND = get_config("BROADCAST_COMMAND", "broadcast")
 # default message in-case of None types
 DEFAULT_START_TEXT = (
-    "Hi. ☺️\n
-untuk penggunaan lebih lanjut, **silahkan untuk ketik /help disini.** \n
-Silahkan Kirim Dokumen yang ingin disimpan dibot @ccgnimex_bot. (ikuti rules) - langgar banned!!",
+    "Silahkan Kirim Dokumen yang ingin disimpan dibot @ccgnimex_bot. (ikuti rules) - langgar banned!!",
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📩 Lapor/REQ", url="https://t.me/otakuindonew"),
-                        InlineKeyboardButton("🤖 Bot CCGNIMEX", url="https://t.me/ccgnimeX_bot")
-                    ],
+                        InlineKeyboardButton("🔍 Cari di Database", switch_inline_query_current_chat="")
+                    ]
                 ]
             )
-        )
-    
-)
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config(
     "START_OTHER_USERS_TEXT",
