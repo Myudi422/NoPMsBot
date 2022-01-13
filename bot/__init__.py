@@ -64,9 +64,9 @@ START_COMMAND = get_config("START_COMMAND", "start")
 BROADCAST_COMMAND = get_config("BROADCAST_COMMAND", "broadcast")
 # default message in-case of None types
 DEFAULT_START_TEXT = (
-    "Silahkan Kirim Berkas Anime yang ingin disimpan Ke Database bot @ccgnimeX ☺️\n"
+    "Silahkan Kirim Berkas Anime yang ingin disimpan Ke Database bot @ccgnimeX_bot ☺️\n"
     "Ikuti & Pahami Rulesnya, Jika tidak, kami akan blokir selamanya!."
-    "Sebelum mengirim berkas, silahkan cek tutorialnya disini!."
+    "Sebelum mengirim berkas, silahkan cek tutorialnya!."
 )
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config(
@@ -98,7 +98,7 @@ DERP_USER_S_TEXT = get_config(
 IS_BLACK_LIST_ED_MESSAGE_TEXT = get_config(
     "IS_BLACK_LIST_ED_MESSAGE_TEXT",
     (
-        "Anda telah <b>diblokir</b> selamanya.\n\n"
+        "Anda telah <b>diblokir</b> selamanya.\n"
         "<u>Alasan</u>: <code>{reason}</code>"
     )
 )
@@ -111,7 +111,7 @@ REASON_DE_LIMIT_ER = get_config(
 IS_UN_BANED_MESSAGE_TEXT = get_config(
     "IS_UN_BANED_MESSAGE_TEXT",
     (
-        "Anda telah <b>dibatalkan pemblokirannya</b>.\n\n"
+        "Anda telah <b>dibatalkan pemblokirannya</b>.\n"
         "<u>Alasan</u>: <code>{reason}</code>"
     )
 )
