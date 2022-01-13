@@ -64,7 +64,9 @@ START_COMMAND = get_config("START_COMMAND", "start")
 BROADCAST_COMMAND = get_config("BROADCAST_COMMAND", "broadcast")
 # default message in-case of None types
 DEFAULT_START_TEXT = (
-    "Hi. ☺️\n"
+    "Silahkan Kirim Berkas Anime yang ingin disimpan Ke Database bot @ccgnimeX ☺️\n"
+    "Ikuti & Pahami Rulesnya, Jika tidak, kami akan blokir selamanya!."
+    "Sebelum mengirim berkas, silahkan cek tutorialnya disini!."
 )
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config(
