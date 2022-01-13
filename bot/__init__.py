@@ -64,8 +64,8 @@ START_COMMAND = get_config("START_COMMAND", "start")
 BROADCAST_COMMAND = get_config("BROADCAST_COMMAND", "broadcast")
 # default message in-case of None types
 DEFAULT_START_TEXT = (
-    "Silahkan Kirim Dokumen yang ingin disimpan dibot @ccgnimex_bot. (ikuti rules) - langgar banned!!"
-        
+    "Hi. ☺️\n"
+)
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config(
     "START_OTHER_USERS_TEXT",
@@ -75,8 +75,7 @@ START_OTHER_USERS_TEXT = int(get_config(
 ONLINE_CHECK_START_TEXT = get_config(
     "ONLINE_CHECK_START_TEXT",
     (
-        "i am online <b>master</b>\n\n"
-        
+        "Saya aktif <b>Bruh</b>\n\n"
     )
 )
 # message to indicate,
@@ -85,8 +84,7 @@ ONLINE_CHECK_START_TEXT = get_config(
 DELETED_MESSAGES_NOTIFICATION_TEXT = get_config(
     "DELETED_MESSAGES_NOTIFICATION_TEXT",
     (
-        "this message was deleted\n\n"
-        
+        "Pesan ini telah dihapus\n\n"
     )
 )
 # IDEKWBYRW
@@ -98,8 +96,8 @@ DERP_USER_S_TEXT = get_config(
 IS_BLACK_LIST_ED_MESSAGE_TEXT = get_config(
     "IS_BLACK_LIST_ED_MESSAGE_TEXT",
     (
-        "You have been <b>banned</b> forever.\n\n"
-        "<u>Reason</u>: <code>{reason}</code>"
+        "Anda telah <b>diblokir</b> selamanya.\n\n"
+        "<u>Alasan</u>: <code>{reason}</code>"
     )
 )
 # IDEKWBYRW
@@ -111,8 +109,8 @@ REASON_DE_LIMIT_ER = get_config(
 IS_UN_BANED_MESSAGE_TEXT = get_config(
     "IS_UN_BANED_MESSAGE_TEXT",
     (
-        "You have been <b>un-banned</b>.\n\n"
-        "<u>Reason</u>: <code>{reason}</code>"
+        "Anda telah <b>dibatalkan pemblokirannya</b>.\n\n"
+        "<u>Alasan</u>: <code>{reason}</code>"
     )
 )
 # message to show if bot was blocked by user
